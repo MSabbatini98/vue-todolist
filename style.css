@@ -1,0 +1,38 @@
+* {
+    background-color: black;
+    color: white;
+}
+
+.box {
+    width: 75%;
+    margin: auto;
+    border: red 2px solid;
+}
+h1{
+    text-align: center;
+    color: cornflowerblue;
+    font-size: 35px;
+}
+a {
+    color:blueviolet;
+    position: absolute;
+    top: -28px;
+    right: -22px;
+    padding: 0 10px;
+    border-radius: 50%;
+    border: red solid 2px;
+}
+ol {
+    margin: 10px 30px;
+}
+ol li {
+    width: 50%;
+    position: relative;
+    font-size: 25px;
+    line-height: 45px;
+    border : white solid 2px;
+}
+
+.input {
+    text-align: center;
+}
