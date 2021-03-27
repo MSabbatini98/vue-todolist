@@ -2,7 +2,7 @@ var vue_box = new Vue (
     {
         el : "#todo_list",
         data :{
-            new_item : "Cose da fare",
+            new_item : "",
             lista : [
                 'Comprare Nachos',
                 'Portare a spasso Fltch',

@@ -1,38 +1,93 @@
 * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: white;
+    font-family: 'Dancing Script', cursive;
+}
+body {
     background-color: black;
+
+}
+.box {
+    margin-top: 40px;
+    width: 75%;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 25px;
+    background-color: rgba(49, 72, 155, 0.7);
+    box-shadow: 0px 0px 250px 200px #31489B;
+        border: blue 2px solid;
+}
+h1, h2, h3,
+h4, h5, h6 {
+    font-family: 'Lobster', cursive;
+    color: blue;
+    text-shadow: 3px 2px 0px #000000;
+}
+
+
+h1{
+    margin: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    font-size: 65px;
+}
+
+i.fa-times-circle {
+    border: red solid 3px;
+    border-radius: 50%;
     color: white;
 }
 
-.box {
-    width: 75%;
-    margin: auto;
-    border: red 2px solid;
-}
-h1{
-    text-align: center;
-    color: cornflowerblue;
-    font-size: 35px;
-}
 a {
-    color:blueviolet;
+    line-height: 0;
+    color:black;
+    text-decoration: none;
     position: absolute;
-    top: -28px;
-    right: -22px;
-    padding: 0 10px;
+    top: -25px;
+    right: -20px;
+    padding: 0;
     border-radius: 50%;
-    border: red solid 2px;
+    background-color:  #31489B;
 }
 ol {
     margin: 10px 30px;
 }
 ol li {
     width: 50%;
+    margin: auto;
+    margin-bottom: 35px;
     position: relative;
-    font-size: 25px;
+    font-size: 30px;
     line-height: 45px;
+    padding: 10px 45px;
+    border-radius: 15px;
     border : white solid 2px;
+    text-shadow: 0px 2px 5px #000000;
+
 }
 
 .input {
     text-align: center;
+}
+.input input {
+    color: blue;
+    font-size: 35px;
+    border-radius: 15px;
+    padding: 10px 25px;
+}
+
+i.fa-times-circle:hover {
+    background-color: tomato;
+}
+
+button {
+    color: blue;
+    font-weight: bold;
+    font-size: 35px;
+    padding: 10px;
+    border-radius: 15px;
+    text-shadow: 0px 2px 5px #000000;
 }
