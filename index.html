@@ -22,11 +22,13 @@
 <body>
     <div class="box">
         <div id="todo_list">
-            <h1>Cose da fare con VUE </h1>
+            <h1>TodoList w/ VUE.js </h1>
             <ol v-if= "lista.length > 0">
                 <li v-for="(item, index) in lista">
                     {{item}} 
-                    <a href="#"  @click="removeItem(index)"> <i class="fas fa-times-circle"></i> </a>
+                    <span  @click="removeItem(index)"> 
+                        <i class="fas fa-times-circle"></i> 
+                    </span>
                 </li>
             </ol>
     

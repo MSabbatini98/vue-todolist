@@ -11,14 +11,14 @@ body {
 }
 .box {
     margin-top: 40px;
-    width: 75%;
+    width: 70%;
     margin: auto;
     margin-top: 50px;
     margin-bottom: 50px;
     padding: 25px;
     background-color: rgba(49, 72, 155, 0.7);
     box-shadow: 0px 0px 250px 200px #31489B;
-        border: blue 2px solid;
+        border: rgba(0, 0, 151, 0.541) 2px solid;
 }
 h1, h2, h3,
 h4, h5, h6 {
@@ -41,7 +41,7 @@ i.fa-times-circle {
     color: white;
 }
 
-a {
+span {
     line-height: 0;
     color:black;
     text-decoration: none;
@@ -74,9 +74,10 @@ ol li {
 }
 .input input {
     color: blue;
-    font-size: 35px;
+    font-size: 30px;
+    line-height: 35px;
     border-radius: 15px;
-    padding: 10px 25px;
+    padding: 13px 20px;
 }
 
 i.fa-times-circle:hover {
@@ -89,5 +90,5 @@ button {
     font-size: 35px;
     padding: 10px;
     border-radius: 15px;
-    text-shadow: 0px 2px 5px #000000;
+    text-shadow: 0px 1px 10px #000000;
 }
